@@ -16,5 +16,6 @@
 		~~~
 
 - `conan create NEW2 -pr:b ./testprofile -pr:h ./testprofile --build=missing`
-	- as suggested by RubenRBS
-    - Does work with conan 1.57.0:
+	- added `CMakeToolchain` as additional generator as suggested by RubenRBS
+	- Does work with conan 1,56.0 and 1.57.0
+
