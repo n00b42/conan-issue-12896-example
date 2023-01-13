@@ -15,3 +15,6 @@
 			FileNotFoundError: [Errno 2] No such file or directory: '/root/.conan/data/helloworld123/0.1/_/_/build/5818e960b35df44504b2f022587e5bdb32b1ec13/CMakePresets.json'
 		~~~
 
+- `conan create NEW2 -pr:b ./testprofile -pr:h ./testprofile --build=missing`
+	- as suggested by RubenRBS
+    - Does work with conan 1.57.0:
